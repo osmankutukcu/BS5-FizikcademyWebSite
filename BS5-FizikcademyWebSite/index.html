@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</title>
+    <!--icon-->
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+    <!-- google font:  releway kullanım: font-family: 'Raleway', sans-serif;-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!---->
+
+    <!-- font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!---->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          >Fizikcademy | Fizik öğrenmek eğlenceli olabilir.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#carouselExampleIndicators"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dersler">Dersler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#egitmenler">Eğitmenler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iletisim">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end-->
+
+    <!-- slider start-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/cocukeinstein.jpeg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/mc2kız.jpeg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/MichioKaku.jpeg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- slider end-->
+    <!-- hakkımızda start-->
+    <section class="p-5 text-center hakkimizda" id="hakkimizda">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Hakkımızda</h2>
+        <hr class="ayrac" />
+        <i class="fas fa-leaf igri"></i>
+
+        <p>
+          Merhaba, biz Fizikcademy adlı eğitim kurumuyuz. Amacımız öğrencilere
+          fizik konularını anlaşılır ve eğlenceli bir şekilde öğretmek ve
+          onların başarılı bir şekilde sınavlara hazırlanmalarını sağlamaktır.
+        </p>
+        <p>
+          Fizik öğrenmek zorlayıcı olabilir, ancak bizimle birlikte öğrenmek
+          sadece eğlenceli değil, aynı zamanda heyecan verici olabilir. Uzman
+          öğretmen kadromuz, öğrencilerinizi tamamen anlamaya ve onların
+          eğitimlerini mümkün olduğunca özelleştirerek yapmaya hazır.
+        </p>
+        <p>
+          Bizimle çalıştığınızda, öğrenmek için harika bir ortam, inanılmaz bir
+          destek ve sadece öğrencilerimizin başarısı için çalışan tutkulu bir
+          öğretmen kadrosu bulacaksınız.
+        </p>
+      </div>
+    </section>
+    <!-- hakkımızda end-->
+
+    <!-- dersler start-->
+    <section class="p-5 text-center dersler" id="dersler">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Dersler</h2>
+        <hr class="ayrac" />
+        <i class="fas fa-leaf igri"></i>
+        <!-- row 1 start-->
+        <div class="row">
+          <!-- figure 1-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/newtontop.jpeg">
+                <img
+                  src="images/newtontop.jpeg "
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Mekanik</p>
+                <p>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- figure 2-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/devre1.jpeg">
+                <img
+                  src="images/devre1.jpeg "
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Elektrik</p>
+                <p>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- figure 3-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/mercek1.jpeg">
+                <img
+                  src="images/mercek1.jpeg"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Optik</p>
+                <p>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- figure 4-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/atom1.jpg">
+                <img
+                  src="images/atom1.jpg"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Atom Fiziği</p>
+                <p>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- row 1 end-->
+
+        <!-- row 2 start-->
+        <div class="row">
+          <!-- figure 1-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/mıkna.jpeg">
+                <img
+                  src="images/mıkna.jpeg"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Magnetizma</p>
+                <p>Fizikcademy| Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- figure 2-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/palanga.jpg">
+                <img
+                  src="images/palanga.jpg"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Basit Makinalar</p>
+                <p>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- figure 3-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/palanga2.jpg">
+                <img
+                  src="images/palanga2.jpg"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Basit Makinalar</p>
+                <p>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- figure 4-->
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <figure class="figure shadow p-3 figureDersler">
+              <a href="images/GeleceginFizigi.jpg">
+                <img
+                  src="images/GeleceginFizigi.jpg"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+              </a>
+              <figcaption class="figure-caption">
+                <p>Gelecegin Fizigi</p>
+                <p>Fizikcademy|Fizik öğrenmek eğlenceli olabilir.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- row 2 end-->
+      </div>
+    </section>
+
+    <!-- dersler end -->
+
+    <!-- eğitmenler start-->
+    <section class="p-5 text-center egitmenler" id="egitmenler">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Eğitmenler</h2>
+        <hr class="ayrac" />
+        <i class="fas fa-leaf ibeyaz"></i>
+        <div class="row row-cols-1 row-cols-md-3 g-4 cardHover">
+          <!-- card 1-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images/rf3.jpeg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Richard Feynman</h5>
+                <p class="card-text">
+                  1918'de ABD'nin New York eyaletinde Queens'teki Far Rockway
+                  adlı küçük bir kasabada dünyaya geldi. Henüz 16 yaşındayken
+                  türev ve integral hesabını tüm yönleriyle kavradı. 17 yaşında
+                  Rockway'den ayrılıp, lisans derecesini yapacağı MIT
+                  (Massachusetts Institute of Technology)'e girdi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--card 2-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images/mk2.jpeg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Michio Kaku</h5>
+                <p class="card-text">
+                  Michio Kaku, City College of New York’ta teorik fizik alanında
+                  Henry Semat Profesörü unvanına sahip Japon kökenli Amerikalı
+                  teorik fizikçi. Bilimin popülerleşmesi ve insanlara ulaşması
+                  için çalışmaktadır. Fizik ve benzeri konular üzerine birçok
+                  kitap yazmış ve ekranlarda sıkça boy göstermiştir.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 3-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="images/fg.jpg" class="card-img-top mw-100" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Feza Gürsoy</h5>
+                <p class="card-text">
+                  Feza Gürsey 1971 yılından 1991 yılındaki emekliliğine kadar
+                  Yale Üniversitesi Fizik Bölümünde çalışmıştır. 19 Ocak 1977'de
+                  temel parçacık fiziğine yaptığı katkılardan dolayı Sheldon
+                  Glashow ile birlikte Oppenheimer Ödülü'nü aldı. Ödül için
+                  kendisini tebrik eden öğrencilerine "Ödül, Yale ile Harvard
+                  arasında paylaşıldı. İsterdim ki, ODTÜ ve Harvard arasında
+                  paylaşıldı desinler" demiştir.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--card 4-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images/ae2.jpeg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Albert Einstein</h5>
+                <p class="card-text">
+                  Albert Einstein, Almanya doğumlu teorik fizikçi ve bilim
+                  insanı. Tüm zamanların en iyi fizikçilerinden birisi olarak
+                  kabul edilen Albert Einstein, en çok görelilik teorisini
+                  geliştirmesiyle tanınır. Aynı zamanda kuantum mekaniğinin
+                  gelişimine önemli ölçüde katkılarda bulunmuştur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--card 5-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images/bohr-ein.jpeg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Niels Bohr</h5>
+                <p class="card-text">
+                  Niels Henrik David Bohr, kuantum mekaniği ve atomun yapısının
+                  anlaşılması üzerine yaptığı katkılarla tanınan, 1922'de Nobel
+                  Fizik Ödülü almış Danimarkalı fizikçi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--card 6-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images/crue.jpeg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Marie Curie</h5>
+                <p class="card-text">
+                  Pierre Curie ile evlenmiş ve Irene ve Ève adında iki kızı
+                  olmuştur. Uranyumla yaptığı deneyler sonucu radyoaktiviteyi
+                  keşfetti. Toryumun radyoaktif özelliğini buldu ve radyum
+                  elementini ayrıştırdı. 1903 Nobel Fizik ödülü, 1911 Nobel
+                  Kimya ödülü sahibi ve radyoloji biliminin kurucusudur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--card 7-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images//hawking.jpg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Stephen Hawking</h5>
+                <p class="card-text">
+                  Stephen Hawking, bu sabah 76 yaşında öldü. Günümüzün en büyük
+                  bilim insanı olarak kabul edilen ünlü fizik profesörü, kara
+                  delikler, uzay bilimi ve kuantum fiziği alanındaki
+                  çalışmalarıyla çığır açtı.Açıklamaları ve öngörüleriyle büyük
+                  saygınlık kazanan Nobel ödüllü Stephen Hawking'in ölümü, tüm
+                  dünyada son dakika oldu. Twitter'da bu sabahtan itibaren
+                  atılan tweet sayısı 2,5 milyonu geçti.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--card 8-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images/behram-kursunoglu.jpg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Behram Kurşunoğlu</h5>
+                <p class="card-text">
+                  Behram Kurşunoğlu 1950'li yıllarda atom enerjisi alanında
+                  çalışmalarını Türkiye'de sürdürmüş ve aynı zamanda Türkiye
+                  Atom Enerjisi Kurumunun kurucu üyesi olarak görev yapmıştır.
+                  Behram Kurşunoğlu aynı zamanda Genelkurmay Başkanlığı'na
+                  danışmanlık yapmıştır.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--card 8-->
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="images/abdusselam.jpeg"
+                class="card-img-top mw-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Muhammed Abdüsselam</h5>
+                <p class="card-text">
+                  Muhammed Abdüsselam ( d. 29 Ocak 1926 - ö. 21 Kasım 1996),
+                  elektrozayıf etkileşim ile ilgili çalışmalara katkılarından
+                  dolayı 1979 yılında Nobel Fizik Ödülünü paylaşan kuramsal
+                  fizikçidir.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- eğitmenler end-->
+
+    <!-- iletişim start-->
+    <section class="p-5 text-center iletisim" id="iletisim">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">İletişim</h2>
+        <hr class="ayrac" />
+        <i class="fas fa-leaf ibeyaz"></i>
+        <form action="" class="col-md-10 text-md-end text-sm-start mx-auto">
+          <!--AD -->
+          <div class="form-group row mb-3">
+            <label for="ad" class="col-md-4 align-self-center">Ad:</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" id="ad" name="ad" />
+            </div>
+          </div>
+
+          <!-- SOYAD-->
+          <div class="form-group row mb-3">
+            <label for="soyad" class="col-md-4 align-self-center">Soyad:</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" id="soyad" name="soyad" />
+            </div>
+          </div>
+
+          <!--EMAİL -->
+          <div class="form-group row mb-3">
+            <label for="email" class="col-md-4 align-self-center">Email:</label>
+            <div class="col-md-8">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+              />
+            </div>
+          </div>
+
+          <!-- mesaj-->
+          <div class="form-group row">
+            <label for="mesajınız" class="col-md-4 align-self-start"
+              >Mesajınız:</label
+            >
+            <div class="col-md-8">
+              <textarea
+                name="mesajınız"
+                id="mesajınız"
+                cols="30"
+                rows="10 "
+                class="form-control"
+              ></textarea>
+            </div>
+          </div>
+          <!-- BUTTON -->
+          <div class="form-group row d-flex justify-content-center mt-3">
+            <button type="submit" class="col-md-3 btn btn-primary">
+              GÖNDER
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- iletişim end -->
+
+    <!-- footer start-->
+    <div class="bg-dark text-light text-center">
+      <p class="align-middle p-5 mb-0">
+        <span>Tüm Hakları Saklıdır &copy; | 2023 </span><br />
+        <b>Fizikcademy | Fizik öğrenmek eğlenceli olabilir.</b>
+      </p>
+    </div>
+    <!--- footer end-->
+
+    <!--  js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!--  js-->
+  </body>
+</html>

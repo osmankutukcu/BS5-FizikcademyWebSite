@@ -1,0 +1,67 @@
+.resimSlider {
+  object-fit: cover;
+  height: 500px;
+}
+
+body {
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif;
+}
+/* body::before {
+  display: block;
+  content: "";
+  height: 0px;
+} */
+.hakkimizda {
+  background-color: #f2f2f2;
+}
+.ayrac {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+.ibeyaz {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid #fff;
+  background-color: #fff;
+}
+
+.igri {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.egitmenler img {
+  object-fit: cover;
+  height: 300px;
+}
+.cardHover .col:hover {
+  opacity: 0.8;
+}
+.dersler {
+  background-color: #f2f2f2;
+  border: 10px solid #f2f2f2;
+}
+.dersler img {
+  height: 200px;
+  width: 300px;
+}
+.figure {
+  height: 350px;
+}
+/* .dersler .figureDersler {
+  height: 350px;
+} */
+.figure:hover {
+  opacity: 0.8;
+}
+/* .dersler .container div {
+ 
+} */
