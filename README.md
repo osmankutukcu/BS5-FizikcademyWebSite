@@ -4,7 +4,8 @@ Bu site, fizik eğitimi alanında öğrencilere yardımcı olmak için hazırlan
 Site içerisinde, fizik konuları hakkında geniş bir içerik bulunmakta ve 
 öğrencilerin bu konuları daha iyi anlamalarına yardımcı olacak materyaller sunulmaktadır.
 <h3>Kullanılan Teknolojiler :</h3>
-Tamamen Bootstrap 5 ile oluşturulmuştur.
+Bootstrap 5 hem bir kütüphane (library) hem de bir framework olarak nitelendirilebilir. 
+Tamamen Bootstrap 5 'in bu özellikleri kullanarak tasarlanmıştır.
 <h3>Ekran Görüntüsü :</h3>
 
 ![screenshot](screenshot.gif)
